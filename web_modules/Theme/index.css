@@ -1,0 +1,21 @@
+/** @define Theme */
+
+:root {
+	--Theme-color-white: #FFFFFF;
+	--Theme-color-black: #212117;
+	--Theme-color-gold: #C7A674;
+	--Theme-color-cream: #F8F8F0;
+	--Theme-color-brown: #A59D8D;
+	--Theme-color-dark: #6B655B;
+	--Theme-color-off-white: #F6F4EF;
+	--Theme-font-brandon: "brandon-grotesque", sans-serif;
+	--Theme-font-futura: "futura-pt", sans-serif;
+	--Theme-font-tisa: "ff-tisa-web-pro", georgia, serif;
+	--Theme-font-title: var(--Theme-font-brandon);
+	--Theme-font-headline: var(--Theme-font-futura);
+	--Theme-font-body: var(--Theme-font-tisa);
+}
+
+.Theme-font--body {
+	font-family: var(--Theme-font-body);
+}

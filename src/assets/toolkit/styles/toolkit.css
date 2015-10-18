@@ -1,0 +1,29 @@
+@import "./sanitize.css";
+
+@import "Theme";
+@import "css-modularscale";
+
+:root {
+	/* sanitize.css variables */
+	--root-box-sizing: border-box;
+	--root-cursor: default;
+	--root-font-family: var(--Theme-font-body);
+	--root-font-size: 100%;
+	--root-line-height: 1.618;
+	--root-text-rendering: optimizeLegibility;
+	--html-background-color: var(--Theme-color-white);
+	--html-color: var(--Theme-color-dark);
+	--anchor-text-decoration: none;
+	--form-element-background-color: transparent;
+	--media-element-vertical-align: middle;
+	--monospace-font-family: monospace;
+	--nav-list-style: none;
+	--selection-background-color: var(--Theme-color-gold);
+	--selection-text-shadow: none;
+	--small-font-size: var(--ms-1);
+	--table-border-collapse: collapse;
+	--table-border-spacing: 0;
+	--textarea-resize: vertical;
+
+
+}
